@@ -1,0 +1,34 @@
+{
+  "name": "showerthoughts-cli",
+  "version": "1.0.0",
+  "description": "Shower Thoughts on your Command Line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drehimself/showerthoughts-cli.git"
+  },
+  "keywords": [
+    "shower",
+    "thoughts",
+    "showerthoughts",
+    "reddit",
+    "api",
+    "cli"
+  ],
+  "author": "Andre Madarang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drehimself/showerthoughts-cli/issues"
+  },
+  "homepage": "https://github.com/drehimself/showerthoughts-cli#readme",
+  "bin": {
+    "showerthoughts": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "superagent": "^1.8.3"
+  }
+}
