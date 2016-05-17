@@ -1,6 +1,6 @@
 {
   "name": "showerthoughts-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shower Thoughts on your Command Line",
   "main": "index.js",
   "scripts": {

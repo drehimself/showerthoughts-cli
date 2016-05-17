@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict';
 
 var chalk = require('chalk');
 var request = require('superagent');
@@ -22,7 +23,6 @@ request
 
   });
 
-function randomIntFromInterval(min,max)
-{
+function randomIntFromInterval(min,max) {
   return Math.floor(Math.random()*(max-min+1)+min);
 }
